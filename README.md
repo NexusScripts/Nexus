@@ -2,7 +2,7 @@
 
 Bienvenue dans le script Roblox de Nexus ! Ce script fantastique a été créé par l'équipe de développement de Ransomware en collaboration avec la communauté Nexus Script.
 
-![Logo Nexus Script](logo.png)
+![Logo Nexus Script](nexus.png)
 
 ## ℹ️ Informations
 
