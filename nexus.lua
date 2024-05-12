@@ -5,7 +5,7 @@ if getgenv().Aimbot then return end
 
 --#inspired by Aimbot v2
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Raw%20Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NexusScripts/Nexus/main/rawmain.lua"))()
 
 
 
