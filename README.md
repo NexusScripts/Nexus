@@ -1,6 +1,8 @@
 # 🚀 Nexus Script Roblox
 
-Bienvenue dans le script Roblox ! Ce script fantastique a été créé par l'équipe de développement de Ransomware.
+Bienvenue dans le script Roblox de Nexus ! Ce script fantastique a été créé par l'équipe de développement de Ransomware en collaboration avec la communauté Nexus Script.
+
+![Logo Nexus Script](logo.png)
 
 ## ℹ️ Informations
 
@@ -10,30 +12,32 @@ Bienvenue dans le script Roblox ! Ce script fantastique a été créé par l'éq
 
 ## 📝 Description
 
-Ce script Roblox fait des choses incroyables. Voici quelques points forts :
+Ce script Roblox offre des fonctionnalités incroyables pour améliorer votre expérience de jeu. Voici quelques points forts :
 
 - Aimbot Indétectable
-- Disponible pour tout les jeux roblox
-- Aucun Bug Majeur, 100& Customiser
+- Compatible avec tous les jeux Roblox
+- Aucun Bug Majeur, 100% Personnalisable
 
 ## 🛠️ Installation
 
-1. Téléchargez le script depuis [ici](lien_vers_le_script).
-2. Importez le script dans votre injecteur roblox.
-3. Utilisez-le dans vos jeux !
+1. **Téléchargez le script** : Obtenez-le depuis [ici](lien_vers_le_script).
+2. **Importez le script** : Ajoutez-le à votre injecteur Roblox.
+3. **Utilisez-le dans vos jeux** : Profitez de ses fonctionnalités dans vos jeux préférés !
 
 ## 📄 Licence
 
-Ce script est sous licence [LICENSE]. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce script est sous licence [Nom de la licence]. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 📧 Contact
 
-Pour toute question, suggestion ou bug, veuillez nous contacter sur notre serveur Discord officiel ou via l'ID Discord mentionné ci-dessus.
+Pour toute question, suggestion ou rapport de bug, n'hésitez pas à nous contacter sur notre serveur Discord officiel ou via l'ID Discord mentionné ci-dessus.
 
 ## 🙏 Remerciements
 
-Nous tenons à remercier tous ceux qui ont contribué à ce projet d'une manière ou d'une autre.
+Nous tenons à exprimer notre gratitude envers tous ceux qui ont contribué à ce projet d'une manière ou d'une autre.
 
 ---
 
-🚧 Ce projet est en constante évolutions et en bêta. N'hésitez pas à vérifier régulièrement les mises à jour ! 🚧
+🚧 Ce projet est en constante évolution et est actuellement en phase bêta. N'hésitez pas à vérifier régulièrement les mises à jour ! 🚧
+
+
