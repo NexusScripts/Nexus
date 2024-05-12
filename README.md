@@ -26,7 +26,7 @@ Ce script Roblox offre des fonctionnalités incroyables pour améliorer votre ex
 
 ## 📄 Licence
 
-Ce script est sous licence [Nom de la licence]. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce script est sous licence [LICENSE]. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 📧 Contact
 
