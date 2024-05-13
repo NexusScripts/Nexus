@@ -1,29 +1,33 @@
+--// Cache
+
 local loadstring, game, getgenv, setclipboard = loadstring, game, getgenv, setclipboard
 
+--// Loaded check
 
 if getgenv().Aimbot then return end
 
---#inspired by Aimbot v2
+--// Load Aimbot V2 (Raw)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NexusScripts/Nexus/main/rawmain.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Raw%20Main.lua"))()
 
-
+--// Variables
 
 local Aimbot = getgenv().Aimbot
 local Settings, FOVSettings, Functions = Aimbot.Settings, Aimbot.FOVSettings, Aimbot.Functions
 
 local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)() -- Pepsi's UI Library
 
-local Parts = {"Head", "RootPart", "Torso", "}
+local Parts = {"Head", "HumanoidRootPart", "Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "LeftUpperLeg", "RightFoot", "RightLowerLeg", "LowerTorso", "RightUpperLeg"}
 
+--// Frame
 
 Library.UnloadCallback = Functions.Exit
 
 local MainFrame = Library:CreateWindow({
-	Name = "Nexus",
+	Name = "NEXUS",
 	Themeable = {
 		Image = "7059346386",
-		Info = "Made by Nexus Script",
+		Info = "Made by NEXUS",
 		Credit = false
 	},
 	Background = "",
@@ -47,7 +51,7 @@ local FunctionsTab = MainFrame:CreateTab({
 --// Settings - Sections
 
 local Values = SettingsTab:CreateSection({
-	Name = "Valeurs"
+	Name = "Values"
 })
 
 local Checks = SettingsTab:CreateSection({
@@ -61,7 +65,7 @@ local ThirdPerson = SettingsTab:CreateSection({
 --// FOV Settings - Sections
 
 local FOV_Values = FOVSettingsTab:CreateSection({
-	Name = "Valeurs"
+	Name = "Values"
 })
 
 local FOV_Appearance = FOVSettingsTab:CreateSection({
@@ -77,7 +81,7 @@ local FunctionsSection = FunctionsTab:CreateSection({
 --// Settings / Values
 
 Values:AddToggle({
-	Name = "Activer",
+	Name = "Enabled",
 	Value = Settings.Enabled,
 	Callback = function(New, Old)
 		Settings.Enabled = New
@@ -103,7 +107,7 @@ Settings.LockPart = Parts[1]; Values:AddDropdown({
 }).Default = Parts[1]
 
 Values:AddTextbox({ -- Using a Textbox instead of a Keybind because the UI Library doesn't support Mouse inputs like Left Click / Right Click...
-	Name = "e",
+	Name = "Hotkey",
 	Value = Settings.TriggerKey,
 	Callback = function(New, Old)
 		Settings.TriggerKey = New
@@ -174,7 +178,7 @@ ThirdPerson:AddSlider({
 		Settings.ThirdPersonSensitivity = New
 	end,
 	Min = 0.1,
-	Max = 10,
+	Max = 5,
 	Decimals = 1
 }).Default = Settings.ThirdPersonSensitivity
 
@@ -279,7 +283,7 @@ FunctionsSection:AddButton({
 })
 
 FunctionsSection:AddButton({
-	Name = "Escape",
+	Name = "Exit",
 	Callback = function()
 		Functions:Exit()
 		Library.Unload()
@@ -287,8 +291,8 @@ FunctionsSection:AddButton({
 })
 
 FunctionsSection:AddButton({
-	Name = "-",
+	Name = "Copy Script Page",
 	Callback = function()
-		setclipboard("")
+		setclipboard("https://github.com/Exunys/Aimbot-V2")
 	end
 })
