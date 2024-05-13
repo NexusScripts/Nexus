@@ -20,7 +20,7 @@ local Parts = {"Head", "RootPart", "Torso", "}
 Library.UnloadCallback = Functions.Exit
 
 local MainFrame = Library:CreateWindow({
-	Name = "Nexus V2",
+	Name = "Nexus",
 	Themeable = {
 		Image = "7059346386",
 		Info = "Made by Nexus Script",
