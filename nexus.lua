@@ -14,13 +14,13 @@ local Settings, FOVSettings, Functions = Aimbot.Settings, Aimbot.FOVSettings, Ai
 
 local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)() -- Pepsi's UI Library
 
-local Parts = {"Head", "RootPart", "Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "LeftUpperLeg", "RightFoot", "RightLowerLeg", "LowerTorso", "RightUpperLeg"}
+local Parts = {"Head", "RootPart", "Torso", "}
 
 
 Library.UnloadCallback = Functions.Exit
 
 local MainFrame = Library:CreateWindow({
-	Name = "Nexus",
+	Name = "Nexus V2",
 	Themeable = {
 		Image = "7059346386",
 		Info = "Made by Nexus Script",
@@ -47,7 +47,7 @@ local FunctionsTab = MainFrame:CreateTab({
 --// Settings - Sections
 
 local Values = SettingsTab:CreateSection({
-	Name = "Values"
+	Name = "Valeurs"
 })
 
 local Checks = SettingsTab:CreateSection({
@@ -61,7 +61,7 @@ local ThirdPerson = SettingsTab:CreateSection({
 --// FOV Settings - Sections
 
 local FOV_Values = FOVSettingsTab:CreateSection({
-	Name = "Values"
+	Name = "Valeurs"
 })
 
 local FOV_Appearance = FOVSettingsTab:CreateSection({
@@ -77,7 +77,7 @@ local FunctionsSection = FunctionsTab:CreateSection({
 --// Settings / Values
 
 Values:AddToggle({
-	Name = "Enabled",
+	Name = "Activer",
 	Value = Settings.Enabled,
 	Callback = function(New, Old)
 		Settings.Enabled = New
@@ -174,7 +174,7 @@ ThirdPerson:AddSlider({
 		Settings.ThirdPersonSensitivity = New
 	end,
 	Min = 0.1,
-	Max = 5,
+	Max = 10,
 	Decimals = 1
 }).Default = Settings.ThirdPersonSensitivity
 
@@ -279,7 +279,7 @@ FunctionsSection:AddButton({
 })
 
 FunctionsSection:AddButton({
-	Name = "Exit",
+	Name = "Escape",
 	Callback = function()
 		Functions:Exit()
 		Library.Unload()
