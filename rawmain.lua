@@ -47,8 +47,8 @@ Environment.FOVSettings = {
 	Enabled = true,
 	Visible = true,
 	Amount = 90,
-	Color = Color3.fromRGB(255, 255, 255),
-	LockedColor = Color3.fromRGB(255, 70, 70),
+	Color = Color3.fromRGB(27, 80, 203),
+	LockedColor = Color3.fromRGB(25, 74, 121),
 	Transparency = 0.5,
 	Sides = 60,
 	Thickness = 1,
@@ -224,21 +224,21 @@ function Environment.Functions:ResetSettings()
 		TeamCheck = false,
 		AliveCheck = true,
 		WallCheck = false,
-		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+		Sensitivity = 0,0 -- Animation length (in seconds) before fully locking onto target
 		ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
 		ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
 		TriggerKey = "RightClick",
 		Toggle = false,
-		LockPart = "Head" -- Body part to lock on
+		LockPart = "Torse" -- Body part to lock on
 	}
 
 	Environment.FOVSettings = {
 		Enabled = true,
 		Visible = true,
-		Amount = 80,
+		Amount = 90,
 		Color = Color3.fromRGB(255, 255, 255),
 		LockedColor = Color3.fromRGB(255, 70, 70),
-		Transparency = 0.8,
+		Transparency = 0.5,
 		Sides = 60,
 		Thickness = 1,
 		Filled = false
